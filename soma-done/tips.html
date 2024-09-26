@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tips og tricks</title>
+<!--bootstrap CDN stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!--bootstrap CDN icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ 
+<!--google fonts: Outfit-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+<!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--eget stylesheet-->
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+<!--Navigationsbar-->
+<nav class="navbar sofie-custom-navbar sticky-top navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand sofie-style-logo" href="index.html">Soma</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-burger fa-xl" style="color: #ffffff;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link sofie-style" href="opskrift-oversigt.html">Opskrifter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link sofie-style" href="tips.html">Tips og Tricks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link sofie-style" href="om-os.html">Om os</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+          <div class="dropdown">
+              <button class="sofie-btn-light btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Min profil
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Min profil</a></li>
+                <li><a class="dropdown-item" href="#">Gemte opskrifter</a></li>
+                <li><a class="dropdown-item" href="#">Indstillinger</a></li>
+              </ul>
+            </div>
+      </span>
+      <span class="navbar-text">
+          <div class="sofie-btn-white">
+              <a href="kontakt.html">Kontakt</a>
+          </div>
+      </span>
+      <span class="navbar-text" style="color: #B7D2B8;">
+        .
+    </span>
+    </div>
+  </div>
+</nav>  
+
+<!--tips intro-->
+<div class="tips-intro-container">
+  <div class="tips-intro-tekst">
+    <h1>Tips og tricks til madkunstskab <br> og disponering af penge</h1>
+    <p>Denne side indeholder tips og tricks til dig, så du får en billig og nem hverdag i køkkenet</p>
+  </div>
+  <div class="tips-intro-scroller">
+    <div class="tips-intro-content">
+      <div class="tips-intro-content-hjerte">
+        <div class="con-like">
+          <input class="like" type="checkbox" title="like">
+          <div class="checkmark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+              <polygon class="poly" points="10,10 20,20"></polygon>
+              <polygon class="poly" points="10,50 20,50"></polygon>
+              <polygon class="poly" points="20,80 30,70"></polygon>
+              <polygon class="poly" points="90,10 80,20"></polygon>
+              <polygon class="poly" points="90,50 80,50"></polygon>
+              <polygon class="poly" points="80,80 70,70"></polygon>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="tips-intro-content-tekst">
+        <h4>Planlæg måltider</h4>
+        <p>Planlæg dine måltider på forhånd og lav en indkøbsliste for at undgå impulskøb og minimere madspild.
+        </p>
+      </div>
+    </div>
+
+    <div class="tips-intro-content">
+      <div class="tips-intro-content-hjerte">
+        <div class="con-like">
+          <input class="like" type="checkbox" title="like">
+          <div class="checkmark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+              <polygon class="poly" points="10,10 20,20"></polygon>
+              <polygon class="poly" points="10,50 20,50"></polygon>
+              <polygon class="poly" points="20,80 30,70"></polygon>
+              <polygon class="poly" points="90,10 80,20"></polygon>
+              <polygon class="poly" points="90,50 80,50"></polygon>
+              <polygon class="poly" points="80,80 70,70"></polygon>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="tips-intro-content-tekst">
+        <h4>Store portioner</h4>
+        <p>Lav store portioner og frys dine rester til senere brug, så sparer du tid i køkkenet<br><br></p>
+      </div>
+    </div>
+
+    <div class="tips-intro-content">
+      <div class="tips-intro-content-hjerte">
+        <div class="con-like">
+          <input class="like" type="checkbox" title="like">
+          <div class="checkmark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+              <polygon class="poly" points="10,10 20,20"></polygon>
+              <polygon class="poly" points="10,50 20,50"></polygon>
+              <polygon class="poly" points="20,80 30,70"></polygon>
+              <polygon class="poly" points="90,10 80,20"></polygon>
+              <polygon class="poly" points="90,50 80,50"></polygon>
+              <polygon class="poly" points="80,80 70,70"></polygon>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="tips-intro-content-tekst">
+        <h4>Tilbud og rabatter</h4>
+        <p>Udnyt tilbud og rabatter i supermarkeder, og overvej at handle i discountbutikker for at spare penge på dagligvarer</p>
+      </div>
+    </div>
+
+    <div class="tips-intro-content">
+      <div class="tips-intro-content-hjerte">
+        <div class="con-like">
+          <input class="like" type="checkbox" title="like">
+          <div class="checkmark">
+            <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+              <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+              <polygon class="poly" points="10,10 20,20"></polygon>
+              <polygon class="poly" points="10,50 20,50"></polygon>
+              <polygon class="poly" points="20,80 30,70"></polygon>
+              <polygon class="poly" points="90,10 80,20"></polygon>
+              <polygon class="poly" points="90,50 80,50"></polygon>
+              <polygon class="poly" points="80,80 70,70"></polygon>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="tips-intro-content-tekst">
+        <h4>Køb basisvarer</h4>
+        <p>Køb basisvarer som ris, pasta og bønner på tilbud, da de kan bruges i mange forskellige retter<br><br></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--tips part et-->
+<div class="tip-part-et-container">
+  <div class="tip-part-et-tekst">
+    <h2>Hygiejne i køkkenet</h2>
+    <p>Lær, hvordan du holder dit køkken sundt og rent gennem god hygiejne </p>
+  </div>
+  <div class="tip-part-et-content">
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Hold kød og grøntsager adskilt, så du undgår bakterier</p>
+    </div>
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Hold maden fri for jordpartikler for at sikre hygiejnen</p>
+    </div>
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Brug forskellige køkkenredskaber til kød og grønt</p>
+    </div>
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Opvarm og nedkøl maden korrekt for at minimere bakterievækst</p>
+    </div>
+  </div>
+</div>
+
+<!--tips part to-->
+<div class="tips-part-to-container">
+  <div class="tips-part-to-img">
+    <div class="tips-part-to-img-content">
+      <i class="bi bi-arrow-right-circle-fill tips-part-to-icon"></i>
+      <p>Opdag hemmeligheden bag verdens bedste kyllingesuppe</p>
+    </div>
+    <div class="tips-part-to-img-content">
+      <i class="bi bi-arrow-right-circle-fill tips-part-to-icon"></i>
+      <p>Lær at lave vores champignonsovs med ris eller pasta</p>
+    </div>
+    <div class="tips-part-to-img-content">
+      <i class="bi bi-arrow-right-circle-fill tips-part-to-icon"></i>
+      <p>Se opskriften på en lækker tærte med kylling og grøntsager</p>
+    </div>
+  </div>
+  <div class="tips-part-to-tekst">
+    <h2>Hvor længe kan din kylling holde?</h2>
+    <p>Find spændende opskrifter og lær, hvordan du kan anvende dine rester på forskellige måder, så intet går til spilde</p>
+  </div>
+</div>
+
+<!--tips part tre-->
+<div class="tips-part-tre-contaniner">
+  <div class="tips-part-tre-content">
+    <div class="tips-part-tre-content1-tekst">
+      <h3>Yderligere tips og tricks</h3>
+      <p>Interesseret i flere smarte, effektive og billige genveje i dit køkken?</p>
+    </div>
+    <div class="tips-part-tre-content1-boks">
+      <p>Fjern hvidløgslugt ved at vaske hænder og skærebræt i citronsaft
+        </p>
+    </div>
+  </div>
+  <div class="tips-part-tre-content">
+    <div class="tips-part-tre-content2-boks-lille">
+        <div class="tips-part-tre-content2-boks-lille-child">
+          Klip dit bacon i stedet for at bruge en kniv
+        </div>
+        <div class="tips-part-tre-content2-boks-lille-child">
+          Har du rester? Server dem som tapas
+        </div>
+    </div>
+    <div class="tips-part-tre-content2-boks-stor">
+      Friske krydderurter smager bedre end tørrede. Dyrk dem hele året i din vindueskarm
+    </div>
+  </div>
+</div>
+
+<!--tips part 4 (part 1 bliver genbrugt)-->
+<div class="tip-part-et-container">
+  <div class="tip-part-et-tekst">
+    <h2>Fryseren er din bedste ven</h2>
+    <p>Du kan have stor glæde af en fryser eller en frostboks i dit køleskab</p>
+  </div>
+  <div class="tip-part-et-content">
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Gem maden i højst tre måneder. Brød og frugt kan holde længere</p>
+    </div>
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Frys kød i frostposer, som er lufttætte. Brug ikke original emballage</p>
+    </div>
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Skriv indhold og dato på alt, du fryser. Skriv gerne direkte på posen</p>
+    </div>
+    <div class="tip-part-et-boks">
+      <div class="con-like hvidt-hjerte">
+        <input class="like" type="checkbox" title="like">
+        <div class="checkmark">
+          <svg xmlns="http://www.w3.org/2000/svg" class="outline" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="filled" viewBox="0 0 24 24">
+            <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100" class="celebrate">
+            <polygon class="poly" points="10,10 20,20"></polygon>
+            <polygon class="poly" points="10,50 20,50"></polygon>
+            <polygon class="poly" points="20,80 30,70"></polygon>
+            <polygon class="poly" points="90,10 80,20"></polygon>
+            <polygon class="poly" points="90,50 80,50"></polygon>
+            <polygon class="poly" points="80,80 70,70"></polygon>
+          </svg>
+        </div>
+      </div>
+      <p>Husk at afise fryseren efter behov eller mindst en gang om året</p>
+    </div>
+  </div>
+</div>
+
+<!--tips part 5 (tips part 2 bliver genbrugt)-->
+<div class="tips-part-to-container">
+  <div class="tips-part-to-img">
+    <div class="tips-part-to-img-content">
+      <i class="bi bi-arrow-right-circle-fill tips-part-to-icon"></i>
+      <p>Opdag hemmeligheden bag verdens bedste omelet</p>
+    </div>
+    <div class="tips-part-to-img-content">
+      <i class="bi bi-arrow-right-circle-fill tips-part-to-icon"></i>
+      <p>Lær at lave Egg Benedict med cremet hollandaisesauce</p>
+    </div>
+    <div class="tips-part-to-img-content">
+      <i class="bi bi-arrow-right-circle-fill tips-part-to-icon"></i>
+      <p>Se opskriften på en lækker, luftig soufflé med skinketern</p>
+    </div>
+  </div>
+  <div class="tips-part-to-tekst">
+    <h2>Test dine æg</h2>
+    <p>Er du i tvivl om dine æg er blevet for gamle?<br>Put et æg i et glas vand. Flyder ægget, skal det ud, synker ægget, kan det stadig bruges.</p>
+  </div>
+</div>
+
+<!--Footer-->
+    <footer>
+        <div class="nyheds-brev-container">
+            <div class="nyheds-brev-tekst">
+                <p>Tilmeld dig vores nyhedsbrev</p>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" class="nyheds-label">Skriv din email</label>
+                  </div>
+                  <div class="nyhedsbrev-btn">Tilmeld dig</div>
+            </div>
+        </div>
+        <div class="footer-links-container">
+          <div class="footer-links">
+            <a target="_blank" href="mulB-gruppe40.pdf">Eksamensrapport</a>
+            <a target="_blank" href="index.html">Forside</a>
+            <a target="_blank" href="kontakt.html">Kontakt</a>
+          </div>
+          <div class="footer-links">
+            <a target="_blank" href="opskrift-oversigt.html">Opskrifter</a>
+            <a target="_blank" href="tips.html">Tips og tricks</a>
+            <a target="_blank" href="om-os.html">Om os</a>
+          </div>
+          <div class="footer-links">
+            <a target="_blank" href="https://mamc.dk/portfolio_rettet-version/forside.html">Mais webportfolio</a>
+            <a target="_blank" href="https://sofievennickolsen.com/eksamensofieholdb/index.html">Sofies webportfolio</a>
+            <a target="_blank" href="https://minetilbud.dk/?gclid=Cj0KCQjwmMayBhDuARIsAM9HM8dG_iXQUrIsVlaH3JdHluiknEnypHxAPsHU41NtK3xMNEZb03piEzEaAmhQEALw_wcB&utm_campaign=paid-search-tilbudsaviskampagne&utm_medium=paid-search-cpc&utm_source=google">Tilbudsavis</a>
+          </div>
+          <div class="footer-links">
+            <a target="_blank" href="https://www.valdemarsro.dk">Valdemarsro</a>
+            <a target="_blank" href="https://www.raadtilpenge.dk/Gode-raad/Unges-okonomi/sparetips-til-studieokonomien.aspx">Råd til penge</a>
+            <a target="_blank" href="https://foedevarestyrelsen.dk/kost-og-foedevarer/alt-om-mad/de-officielle-kostraad/kostraad-til-dig">Fødevarestyrelsen</a>
+          </div>
+      </div>
+      <div class="copyright">
+        Made with love by Sofie and Mai ©
+      </div>
+    </footer>
+
+<!--Bootstrap JS-->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
